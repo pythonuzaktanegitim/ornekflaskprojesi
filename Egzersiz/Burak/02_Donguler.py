@@ -1,3 +1,3 @@
-for i in range(5,30):
-    if i % 2 and i % 3:
+for i in range(5,31):
+    if  i % 2 == 0 and i % 3 == 0:
         print(i)
