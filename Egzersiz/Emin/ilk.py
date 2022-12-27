@@ -1,1 +1,1 @@
-pint(Merhaba)
+print('merhaba')
