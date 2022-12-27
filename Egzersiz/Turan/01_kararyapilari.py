@@ -1,2 +1,2 @@
 Print (merhaba)
-giris = input()
+giris = input("yas giriniz")
