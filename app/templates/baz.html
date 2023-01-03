@@ -1,0 +1,16 @@
+<html>
+
+<head>
+    {% if baslik %}
+    <title>{{baslik}}</title>
+    {% else %}
+    <title>BAŞLIK YOK</title>
+    {% endif %}
+</head>
+
+<body>
+    {% block icerik %}
+    {% endblock %}
+</body>
+
+</html>

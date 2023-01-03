@@ -1,0 +1,14 @@
+{% extends "baz.html" %}
+
+{% block icerik %}
+    <h1>Selam, {{user.kullaniciAdi}}
+    </h1>
+    {% for malzeme in malzemeler %}
+    <div><p>{{malzeme.adi.marka}}</p>
+        <p>{{malzeme.adi.tur}}</p>
+        <p>{{malzeme.adet}}</p>
+        <p>{{malzeme.fiyat}}</p>
+    </div>
+    {% endfor %}
+
+    {% endblock %}
