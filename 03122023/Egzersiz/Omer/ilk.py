@@ -1,3 +1,4 @@
 print("merhaba")
+print("merhaba")
 
 
