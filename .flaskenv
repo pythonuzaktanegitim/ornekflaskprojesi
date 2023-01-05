@@ -1,2 +1,3 @@
 FLASK_ENV=run.py
 FLASK_DEBUG=True
+SECRET_KEY=Jamiryo
